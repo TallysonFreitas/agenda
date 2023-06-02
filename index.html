@@ -9,10 +9,81 @@
 </head>
 <body>
     <header>
-
+        <div>
+            <img src="images/phone-book.png" alt="agenda">
+            <h1>Agenda Pessoal</h1>
+        </div>
+        <ul>
+            <li><a href="">Adicionar</a></li>
+            <li><a href="">Agenda</a></li>
+            <li><a href="">Remover</a></li>
+        </ul>
     </header>
     <main>
-
+        <div class="container">
+            <img src="images/3d-contact.png" alt="agenda">
+            <div class="direita">
+                <div class="cima">
+                    <h2>Sua Agenda Digital</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi quis natus, optio odit fuga, repudiandae corrupti repellat ipsum odio doloremque, blanditiis ea quam! Voluptatem modi voluptas perferendis consectetur dolor?</p>
+                </div>
+                <div class="baixo">
+                    <img src="images/3d-map.png" alt="mapa">
+                    <img src="images/3d-computer.png" alt="computador">
+                    <img src="images/3d-compass.png" alt="compasso">
+                </div>
+            </div>
+        </div>
+        <div id="pq" class="container">
+            <img src="images/3d-medal.png" alt="medalha">
+            <div class="direita">
+                <div class="cima">
+                    <h2>Tudo Online e Seguro</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est cupiditate ut, obcaecati quidem error nemo exercitationem veniam, voluptas veritatis reprehenderit vero? Ea sit laboriosam nisi dolores cum natus quas fugiat.</p>
+                </div>
+                <div class="baixo">
+                    <img src="images/3d-fire.png" alt="fogo">
+                    <img src="images/3d-unlocked.png" alt="cadeado">
+                    <img src="images/3d-wifi.png" alt="roteador">
+                </div>
+            </div>
+        </div>
+        <div id="formulario" class="container">
+                <img src="images/boy.png" alt="">
+                <div class="direita">
+                    <div class="cima">
+                        <h2>Adicione Seu Novo Contato:</h2>
+                        <form action="">
+                            <input id="nome-contato" required placeholder="Nome" type="text">
+                            <input id="numero-contato" pattern="83982025325" required placeholder="Numero" type="tel">
+                            <input type="button" value="Adicionar" onclick="adicionarContato()">
+                        </form>
+                    </div>
+                    <p id="aviso"></p>
+                </div>
+            </div>
+            <div id="tabela" class="container">
+                <table>
+                    <thead>
+                        <th>Nome</th>
+                        <th>Numero</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tallyson</td>
+                            <td>(83)982025325</td>
+                        </tr>
+                        <tr>
+                            <td>Leticia</td>
+                            <td>(83)981293005</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                    </tfoot>
+                </table>
+            </div>
     </main>
     <footer>
 

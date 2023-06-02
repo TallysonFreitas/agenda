@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=EB+Garamond:wght@400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --font-titulo:'Barlow', sans-serif;
+    --font-text:'Work Sans', sans-serif;
+
+    --laranja:#F46036;
+    --azul-claro:#5B85AA;
+    --azul-escuro:#414770;
+    --roxo:#372248;
+    --roxo-escuro:#171123;
+}
+
+body{
+    background-color: var(--azul-claro);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: var(--azul-escuro);
+    font-family: var(--font-titulo);
+    color: white;
+}
+
+header a{
+    font: bold 1.2em var(--font-titulo);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+}
+
+header li{
+    display: inline;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header div img{
+    height: 48px;
+}
+
+.container{
+    background-color: var(--roxo-escuro);
+    width: 1280px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pq{
+    background-color: var(--azul-escuro);
+    width: 1280px;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.container img{
+    height: 80%;
+}
+
+.direita{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.cima{
+width: 400px;
+}
+
+.cima h2{
+text-align: center;
+color: white;
+font:bold 1.8em var(--font-titulo);
+margin-bottom: 20px;
+}
+
+.cima p{
+    font: normal 1em var(--font-text);
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.baixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.baixo img{
+    height: 48px;
+}
+
+#formulario{
+    background-color: var(--laranja);
+    justify-content: space-around;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#formulario form input{
+    padding: 5px;
+    font: bold 1em var(--font-titulo);
+    
+}
+
+#aviso{
+    display: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    font: bold 0.8em var(--font-text);
+    margin-top: 6px;
+}
+
+#tabela{
+    background-color: var(--azul-escuro);
+}
