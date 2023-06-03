@@ -49,44 +49,39 @@
             </div>
         </div>
         <div id="formulario" class="container">
-                <img src="images/boy.png" alt="">
-                <div class="direita">
-                    <div class="cima">
-                        <h2>Adicione Seu Novo Contato:</h2>
-                        <form action="">
-                            <input id="nome-contato" required placeholder="Nome" type="text">
-                            <input id="numero-contato" pattern="83982025325" required placeholder="Numero" type="tel">
-                            <input type="button" value="Adicionar" onclick="adicionarContato()">
-                        </form>
-                    </div>
-                    <p id="aviso"></p>
+            <img src="images/boy.png" alt="">
+            <div class="direita">
+                <div class="cima">
+                    <h2>Adicione Seu Novo Contato:</h2>
+                    <form action="">
+                        <input id="nome-contato" required placeholder="Nome" type="text">
+                        <input id="numero-contato" pattern="83982025325" required placeholder="Numero" type="tel">
+                        <input type="button" value="Adicionar" onclick="adicionarContato()">
+                    </form>
                 </div>
+                <p id="aviso"></p>
             </div>
-            <div id="tabela" class="container">
-                <table>
+        </div>
+        <div id="tabela" class="container">
+            <h2>Acesse seus contatos aqui</h2>
+            <div class="agenda">
+                <img src="images/search.png" alt="lupa">
+                <table class="direita">
                     <thead>
+                        <th>Contato</th>
                         <th>Nome</th>
                         <th>Numero</th>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>Tallyson</td>
-                            <td>(83)982025325</td>
-                        </tr>
-                        <tr>
-                            <td>Leticia</td>
-                            <td>(83)981293005</td>
-                        </tr>
+                    <tbody id="saida">
                     </tbody>
                     <tfoot>
-                        <td></td>
-                        <td></td>
                     </tfoot>
                 </table>
             </div>
+        </div>
     </main>
     <footer>
-
+        <p>&copy;Desenvolvido por Tallyson Freitas&copy;</p>
     </footer>
     <script src="script.js"></script>
 </body>
